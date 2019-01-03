@@ -1,0 +1,115 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body 
+{
+    font-family: Roboto, sans-serif;
+    overflow: hidden;
+    background: white;
+}
+
+.head img {
+    padding: 10px;
+    width: 180px;
+}
+
+.head .logo {
+    border: 1 solid red;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -80px;
+    height: 100px;
+}
+
+
+.head .logo .logotitle {
+    align-self: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: gray;
+}
+
+.logo .sginup {
+    margin-left: 10px;
+    align-self: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.logo .sginup a {
+    text-decoration: none;
+}
+
+.logo img {
+    align-self: center;
+    width: 30px;
+}
+
+.logo img :nth-child(2) {
+    width: 30px;
+}
+
+.menu {
+    display: flex;
+    background-color: rgb(238, 231, 231);
+    box-shadow: 0px 0px 20px -5px #000;
+}
+
+.menu .site {
+    display: flex;
+    margin-left: 10px;
+}
+
+.menu .site a {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    color: darkgray;
+}
+
+.menu .seperate {
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    color: darkgray;
+}
+
+.menu .tech {
+    margin-left: 5px;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(139, 136, 136);
+}
+
+.menu .tech a {
+    padding: 10px;
+}
+
+.header {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.header .spotlighttitle {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header .date {
+    font-family: 'Franklin Gothic Medium', 'Arial Narow', sans-serif;
+    font-size: 40px;
+    margin-left: 20px;
+    font-weight: 100;
+    color: darkgray;
+}
